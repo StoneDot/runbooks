@@ -4,6 +4,9 @@
 
 詳細な話やブログ記事的な性質を持つものは `article` に配置します。
 
+Runbook や Article 全体の記述についてはライセンス `CC BY-NC-SA 4.0` として公開します。
+その一方、本レポジトリ内のサンプルプログラムや設定箇所のみについては、明示されていない限りはパブリックドメインとし自由に利用が可能です。
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
 </a>
