@@ -15,7 +15,6 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License<
 以下は執筆予定も含みます。
 
 - Runbook
-  - [Incident](Incident.md)
   - [Linux](Linux.md)
   - [HDFS](HDFS.md)
   - [HBase](HBase.md)
