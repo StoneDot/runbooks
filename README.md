@@ -27,4 +27,5 @@ Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License<
   - [Amazon Linux 2](article/AmazonLinux2.md)
   - [Amazon Linux 2 (systemd)](article/AL2-Systemd.md)
   - [Linux Security](article/LinuxSecurity.md)
+  - [Logging](article/Logging.md)
   - [PostgreSQL](article/PostgreSQL.md)
