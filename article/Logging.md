@@ -119,7 +119,8 @@ logrotate 処理は cron で呼び出されていて `/etc/cron.daily/logrotate`
 | sharedscripts | prerotate, postrotate がローテートされたそれぞれのファイルに呼び出されるのか、一度に呼び出されるのか設定します。 |
 | postrotate/endscript | postrotate と endscript の間の内容が /bin/sh として実行されます。 |
 
-SIGNAL につては `man 7 signal` で概要を確認できます。
+SIGNAL については `man 7 signal` で概要を確認できます。
 ただ、実際のところ rsyslogd の場合は、シグナルをトラップして独自実装をしているみたいです（ちゃんと追っているわけではないですが）。
-https://github.com/rsyslog/rsyslog/blob/ee1485be7d6ab8f2d4b07074ecd6efac491cd1c5/tools/rsyslogd.c#L1231
-https://github.com/rsyslog/rsyslog/blob/ee1485be7d6ab8f2d4b07074ecd6efac491cd1c5/tools/rsyslogd.c#L1758
+
+* [sighup の handler](https://github.com/rsyslog/rsyslog/blob/ee1485be7d6ab8f2d4b07074ecd6efac491cd1c5/tools/rsyslogd.c#L1231)
+* [HUP の処理をしていると思われる箇所](https://github.com/rsyslog/rsyslog/blob/ee1485be7d6ab8f2d4b07074ecd6efac491cd1c5/tools/rsyslogd.c#L1758)
